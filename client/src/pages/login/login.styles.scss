@@ -1,0 +1,45 @@
+.form-container {
+	width: 90%;
+	max-width: 600px;
+	margin: 100px auto;
+	border: 1px solid #008888;
+	padding: 20px;
+	text-align: center;
+	border-radius: 15px;
+
+	img {
+		width: 100px;
+	}
+
+	h1 {
+		color: #003459;
+	}
+
+	.input-form {
+		margin-top: 15px;
+		width: 90%;
+		border: 1px solid #008888;
+		border-radius: 5px;
+		padding: 5px 5px;
+	}
+
+	button {
+		margin-top: 10px;
+		border-radius: 15px;
+		padding: 5px 30px;
+		border:0.1em solid #008888;
+		box-sizing: border-box;
+		text-decoration:none;
+		font-family:'Roboto',sans-serif;
+		font-weight:300;
+		cursor: pointer;
+		color:#00A8E8;
+		text-align:center;
+		transition: all 0.2s;
+		background-color: #ffffff;
+		&:hover {
+			color:#FFFFFF;
+			background-color:#00A8E8;
+		}
+	}
+}

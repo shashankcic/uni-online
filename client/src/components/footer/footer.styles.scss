@@ -1,0 +1,36 @@
+.footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background: #152331;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    23deg,
+    #000000,
+    #152331
+  );
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(23deg, #000000, #152331);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+  .copyright {
+      margin-top: 30px;
+      text-align: center;
+  }
+  a {
+      display: block;
+      color: #ffffff;
+      &:hover {
+          color: #00A8E7;
+      }
+  }
+  span {
+      color: #00A8E7;
+  }
+  p {
+      margin-top: 30px;
+  }
+  .row {
+      margin-right: 0;
+  }
+}

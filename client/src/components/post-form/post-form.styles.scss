@@ -1,0 +1,52 @@
+.post-form {
+    width: 90%;
+    margin-left: 5%;
+    input {
+        border-radius: 25px;
+        background-color: #f0f0f0;
+        border: none;  
+        margin-bottom: 15px;
+        padding: 8px 15px;
+    }
+
+    .input-title {
+        width: 100%;
+        &:focus {
+            outline: none;
+            border-radius: 25px;
+            border: 1px solid #00A8E8;
+        }
+    }
+
+    .input-desc {
+        border-radius: 25px;
+        background-color: #f0f0f0;
+        border: none;
+        margin-bottom: 15px;
+        padding: 5px 15px;
+        width: 100%;
+        height: 100px;
+        resize: none;
+        &:focus {
+            outline: none;
+            border-radius: 25px;
+            border: 1px solid #00A8E8;
+        }
+    }
+    button {
+        width: 40vw;
+        min-width: 270px;
+        height: 40px;
+        border-radius: 25px;
+        border: none;
+        font-size: 20px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #00A8E8;
+        &:hover {
+            color: #FFFFFF;
+            background-color: #007EA7;
+        }
+    }
+}

@@ -1,0 +1,117 @@
+.homepage {
+  .wallpaper {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+    background-position:25% 75%;
+    min-height: 650px;
+  }
+  
+  .text-color {
+    color: #00A8E8;
+  }
+  
+  .wallpaper-body {
+    padding-top: 100px;
+    color: #ffffff;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+  }
+  
+  .btn-login {
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, .0);
+    color: #ffffff;
+    border: solid 1px white;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    &:hover {
+      color: #00A8E8;
+      border: solid 1px #00A8E8;
+    }
+  }
+  
+  .btn-register {
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000000;
+    border: none;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    &:hover {
+      background-color: #00A8E8;
+      color: #ffffff;
+    }
+  }
+  
+  .know-more {
+    font-size: 16px;
+    margin-top: 70px;
+  }
+  
+  .image-card {
+    height: 100px;
+    border-radius: 15px;
+    margin-right: 15px;
+    float: left;
+  }
+
+  .second-body {
+    background: #152331;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      23deg,
+      #000000,
+      #152331
+    );
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(23deg, #000000, #152331);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+  }
+
+  .card {
+    color: #000000;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .card-head {
+    font-size: 24px;
+    color: #00A8E7;
+    span {
+      font-weight: 700;
+    }
+  }
+  
+  .text {
+    text-align: left;
+    width: 85%;
+    margin: auto;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .row {
+    margin-right: 0;
+  }
+
+  .info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    h1 {
+      color: #00A8E8;
+    }
+  }
+
+}

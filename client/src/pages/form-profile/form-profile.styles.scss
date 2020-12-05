@@ -1,0 +1,101 @@
+.main-container {
+    padding-top: 25px;
+    .go-back {
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+    h1 {
+        color: #00A8E8;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    p {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 18px;
+    }
+    i {
+        color: #00A8E8;
+        margin-right: 10px;
+    }
+    width: 70%;
+    margin: auto;
+    .form-profile {
+
+        .grid-input {
+            input, select{
+                margin-bottom: 30px;
+                font-size: 18px;
+                border-radius: 25px;
+                border: none;
+                width: 400px;
+                height: 45px;
+                padding-left: 30px;
+                background-color: #f0f0f0;
+                color: rgba( 0, 0, 0, 0.5);
+                &:focus {
+                    outline: none;
+                    border-radius: 25px;
+                    border: 1px solid #00A8E8;
+                }
+            }
+        }
+        textarea {
+            margin-left: 0;
+            border-radius: 25px;
+            border: none;
+            padding: 10px 50px;
+            background-color: #f0f0f0;
+            color: rgba( 0, 0, 0, 0.5);
+            resize: none;
+            &:focus {
+                outline: none;
+                border-radius: 25px;
+                border: 1px solid #00A8E8;
+            }
+        }
+    
+        button {
+            border-radius: 25px;
+            width: 400px;
+            height: 45px;
+        }
+    }
+
+    
+
+    .button-send {
+        border: none;
+        font-size: 20px;
+        margin: 30px 0;
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #007EA7;
+        &:hover {
+            color: #FFFFFF;
+            background-color: #007EA7;
+        }
+    }
+}
+
+
+.social-network {
+    input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        border-radius: 10px;
+        border: none;
+        width: 300px;
+        height: 35px;
+        padding-left: 30px;
+        background-color: #f0f0f0;
+        color: rgba( 0, 0, 0, 0.5);
+        &:focus {
+            outline: none;
+            border: 1px solid #00A8E8;
+        }
+    }
+}

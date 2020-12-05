@@ -1,0 +1,22 @@
+.edu {
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    
+
+    button {
+        border: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .edit-button {
+        color: #00A8E8;
+    }
+
+    .delete-button {
+        color: rgb(255, 95, 67);
+    }
+}

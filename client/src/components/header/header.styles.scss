@@ -1,0 +1,46 @@
+.nv {
+  text-align: center;
+  }
+  
+.link {
+  margin: 0 30px;
+  i {
+    color: #ccc;
+  }
+  div {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #777;
+    text-decoration: none;
+  }
+  &:hover {
+    i {
+      color: #00c9e8;
+    }
+    div {
+      color: #ffffff;
+    }
+  }
+  
+}
+.margin-center {
+  margin: auto;
+}
+
+
+.bg {
+  background: #152331;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    23deg,
+    #000000,
+    #152331
+  );
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(23deg, #000000, #152331);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#nav-button {
+  color: white;
+}

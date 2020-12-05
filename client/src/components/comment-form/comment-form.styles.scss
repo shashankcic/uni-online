@@ -1,0 +1,36 @@
+.comment-form {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+
+    button {
+        width: 200px;
+        height: 40px;
+        border-radius: 25px;
+        border: none;
+        font-size: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #00A8E8;
+        &:hover {
+            color: #FFFFFF;
+            background-color: #007EA7;
+        }
+    }
+    textarea {
+        border-radius: 25px;
+        background-color: #f0f0f0;
+        border: none;
+        margin-bottom: 5px;
+        padding: 5px 15px;
+        width: 100%;
+        height: 100px;
+        resize: none;
+        &:focus {
+            outline: none;
+            border-radius: 25px;
+            border: 1px solid #00A8E8;
+        }
+    }
+}

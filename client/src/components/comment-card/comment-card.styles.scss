@@ -1,0 +1,54 @@
+.comment-card {
+    width: 80%;
+    margin: 15px auto;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    padding: 25px;
+    img {
+        width: 80px;
+        border-radius: 50%;
+    }
+    .first {
+        text-align: center;
+    }
+    .post-date {
+        margin-bottom: 30px;
+        font-weight: 600;
+        color: #bdb8b8;
+    }
+    .discussion {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .likes {
+        position: absolute;
+        bottom: 0;
+    }
+    .fa-arrow-up {
+        color: #00A8E8;
+    }
+    .fa-arrow-down {
+        color: #fd5959;
+    }
+    .fa-trash-alt {
+        padding: 0 15px;
+    }
+    .btn-danger {
+        font-size: 12px;
+        border: none;
+        border-radius: 5px;
+    }
+    .border-none {
+        background-color: #f0f0f0;
+        border: none;
+    }
+    .comment-count {
+        color: white;
+        background-color: gray;
+        padding: 0 8px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+}

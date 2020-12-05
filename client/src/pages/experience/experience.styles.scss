@@ -1,0 +1,96 @@
+.experience {
+    width: 70%;
+    margin: 50px auto;
+    .go-back {
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+    p{
+        text-align: center;
+    }
+    h1{
+        color: #00A8E8;
+    }
+    i{
+        color: #00A8E8;
+    }
+    .grid-input {
+        input{
+            margin-bottom: 30px;
+            font-size: 18px;
+            border-radius: 25px;
+            border: none;
+            width: 400px;
+            height: 45px;
+            padding-left: 30px;
+            background-color: #f0f0f0;
+            color: rgba( 0, 0, 0, 0.5);
+            &:focus {
+                outline: none;
+                border-radius: 25px;
+                border: 1px solid #00A8E8;
+            }
+        }
+        textarea {
+            width: 400px;
+            margin-left: 0;
+            border-radius: 25px;
+            border: none;
+            padding: 10px 50px;
+            background-color: #f0f0f0;
+            color: rgba( 0, 0, 0, 0.5);
+            &:focus {
+                outline: none;
+                border-radius: 25px;
+                border: 1px solid #00A8E8;
+            }
+        }
+    }
+    .date-input {
+        input{
+            margin-bottom: 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            border: none;
+            width: 200px;
+            height: 45px;
+            padding-left: 30px;
+            background-color: #f0f0f0;
+            color: rgba( 0, 0, 0, 0.5);
+            &:focus {
+                outline: none;
+                border-radius: 10px;
+                border: 1px solid #00A8E8;
+            }
+            &:disabled {
+                font-size: 0;
+            }
+        }
+    }
+    .checkbox {
+        input {
+            transform: scale(1.5);
+        }
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .button-send {
+        width: 300px;
+        height: 40px;
+        border-radius: 25px;
+        border: none;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #00A8E8;
+        &:hover {
+            color: #FFFFFF;
+            background-color: #007EA7;
+        }
+    }
+}
+

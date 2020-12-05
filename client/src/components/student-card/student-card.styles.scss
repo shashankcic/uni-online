@@ -1,0 +1,33 @@
+.student-card {
+        text-align: center;
+        background-color: #ffffff;
+        width: 250px;
+        height: 350px;
+        border-radius: 10px;
+        .link {
+            display: block;
+            color: #00A8E7;
+        }
+        img {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 150px;
+        }
+
+        .name {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .skill {
+            background-color: #007EA7;
+            border-radius: 50px;
+            padding: 5px 10px;
+            color: white;
+        }
+    }

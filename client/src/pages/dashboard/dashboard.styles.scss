@@ -1,0 +1,20 @@
+.dashboard {
+  display: inline;
+  text-align: center;
+  margin: 0 auto;
+  .row {
+    margin-right: 0;
+  }
+  h1 {
+    color: #007AE7;
+    margin-bottom: 50px;
+  }
+  .info {
+    padding-bottom: 70px;
+  }
+  @media screen and (max-width: 595px) {
+    .dashboard {
+        color: purple;
+    }
+  }
+}

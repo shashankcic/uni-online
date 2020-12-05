@@ -1,0 +1,40 @@
+.send-message {
+    text-align: center;
+    img{
+        border-radius: 50%;
+        width: 150px;
+        border: 2px solid #00A8E8;
+        box-shadow: 0px 0px 14px 4px rgba(0, 168, 232, 0.73);
+    }
+    textarea {
+        margin-left: 0;
+        border-radius: 25px;
+        border: none;
+        padding: 10px 50px;
+        background-color: #f0f0f0;
+        color: rgba( 0, 0, 0, 0.5);
+        resize: none;
+        &:focus {
+            outline: none;
+            border-radius: 25px;
+            border: 1px solid #00A8E8;
+        }
+    }
+    
+    .button-send {
+        
+        border-radius: 25px;
+        width: 400px;
+        height: 45px;
+        border: none;
+        font-size: 20px;
+        margin: 30px 0;
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #007EA7;
+        &:hover {
+            color: #FFFFFF;
+            background-color: #007EA7;
+        }
+    }
+}
